@@ -299,7 +299,6 @@ install_command() {
         echo "Invalid version format. Please enter a valid version (e.g. v0.5.2)"
         exit 1
     fi
-    install_marzban
     up_marzban
     follow_marzban_logs
 }
